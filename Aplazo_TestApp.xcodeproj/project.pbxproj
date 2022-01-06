@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1666AA32787AA7F00F7E5E9 /* Aplazo_TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AA22787AA7F00F7E5E9 /* Aplazo_TestAppApp.swift */; };
+		E1666AA52787AA7F00F7E5E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AA42787AA7F00F7E5E9 /* ContentView.swift */; };
+		E1666AA72787AA8000F7E5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1666AA62787AA8000F7E5E9 /* Assets.xcassets */; };
+		E1666AAA2787AA8000F7E5E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1666AA92787AA8000F7E5E9 /* Preview Assets.xcassets */; };
+		E1666AB42787AA8000F7E5E9 /* Aplazo_TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AB32787AA8000F7E5E9 /* Aplazo_TestAppTests.swift */; };
+		E1666ABE2787AA8000F7E5E9 /* Aplazo_TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666ABD2787AA8000F7E5E9 /* Aplazo_TestAppUITests.swift */; };
+		E1666AC02787AA8000F7E5E9 /* Aplazo_TestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666ABF2787AA8000F7E5E9 /* Aplazo_TestAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1666AB02787AA8000F7E5E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1666A972787AA7F00F7E5E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1666A9E2787AA7F00F7E5E9;
+			remoteInfo = Aplazo_TestApp;
+		};
+		E1666ABA2787AA8000F7E5E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1666A972787AA7F00F7E5E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1666A9E2787AA7F00F7E5E9;
+			remoteInfo = Aplazo_TestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1666A9F2787AA7F00F7E5E9 /* Aplazo_TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplazo_TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1666AA22787AA7F00F7E5E9 /* Aplazo_TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplazo_TestAppApp.swift; sourceTree = "<group>"; };
+		E1666AA42787AA7F00F7E5E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1666AA62787AA8000F7E5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1666AA92787AA8000F7E5E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1666AAF2787AA8000F7E5E9 /* Aplazo_TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aplazo_TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1666AB32787AA8000F7E5E9 /* Aplazo_TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplazo_TestAppTests.swift; sourceTree = "<group>"; };
+		E1666AB92787AA8000F7E5E9 /* Aplazo_TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aplazo_TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1666ABD2787AA8000F7E5E9 /* Aplazo_TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplazo_TestAppUITests.swift; sourceTree = "<group>"; };
+		E1666ABF2787AA8000F7E5E9 /* Aplazo_TestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplazo_TestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1666A9C2787AA7F00F7E5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1666AAC2787AA8000F7E5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1666AB62787AA8000F7E5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1666A962787AA7F00F7E5E9 = {
+			isa = PBXGroup;
+			children = (
+				E1666AA12787AA7F00F7E5E9 /* Aplazo_TestApp */,
+				E1666AB22787AA8000F7E5E9 /* Aplazo_TestAppTests */,
+				E1666ABC2787AA8000F7E5E9 /* Aplazo_TestAppUITests */,
+				E1666AA02787AA7F00F7E5E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1666AA02787AA7F00F7E5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1666A9F2787AA7F00F7E5E9 /* Aplazo_TestApp.app */,
+				E1666AAF2787AA8000F7E5E9 /* Aplazo_TestAppTests.xctest */,
+				E1666AB92787AA8000F7E5E9 /* Aplazo_TestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1666AA12787AA7F00F7E5E9 /* Aplazo_TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1666AA22787AA7F00F7E5E9 /* Aplazo_TestAppApp.swift */,
+				E1666AA42787AA7F00F7E5E9 /* ContentView.swift */,
+				E1666AA62787AA8000F7E5E9 /* Assets.xcassets */,
+				E1666AA82787AA8000F7E5E9 /* Preview Content */,
+			);
+			path = Aplazo_TestApp;
+			sourceTree = "<group>";
+		};
+		E1666AA82787AA8000F7E5E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1666AA92787AA8000F7E5E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1666AB22787AA8000F7E5E9 /* Aplazo_TestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1666AB32787AA8000F7E5E9 /* Aplazo_TestAppTests.swift */,
+			);
+			path = Aplazo_TestAppTests;
+			sourceTree = "<group>";
+		};
+		E1666ABC2787AA8000F7E5E9 /* Aplazo_TestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1666ABD2787AA8000F7E5E9 /* Aplazo_TestAppUITests.swift */,
+				E1666ABF2787AA8000F7E5E9 /* Aplazo_TestAppUITestsLaunchTests.swift */,
+			);
+			path = Aplazo_TestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1666A9E2787AA7F00F7E5E9 /* Aplazo_TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1666AC32787AA8000F7E5E9 /* Build configuration list for PBXNativeTarget "Aplazo_TestApp" */;
+			buildPhases = (
+				E1666A9B2787AA7F00F7E5E9 /* Sources */,
+				E1666A9C2787AA7F00F7E5E9 /* Frameworks */,
+				E1666A9D2787AA7F00F7E5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aplazo_TestApp;
+			productName = Aplazo_TestApp;
+			productReference = E1666A9F2787AA7F00F7E5E9 /* Aplazo_TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1666AAE2787AA8000F7E5E9 /* Aplazo_TestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1666AC62787AA8000F7E5E9 /* Build configuration list for PBXNativeTarget "Aplazo_TestAppTests" */;
+			buildPhases = (
+				E1666AAB2787AA8000F7E5E9 /* Sources */,
+				E1666AAC2787AA8000F7E5E9 /* Frameworks */,
+				E1666AAD2787AA8000F7E5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1666AB12787AA8000F7E5E9 /* PBXTargetDependency */,
+			);
+			name = Aplazo_TestAppTests;
+			productName = Aplazo_TestAppTests;
+			productReference = E1666AAF2787AA8000F7E5E9 /* Aplazo_TestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1666AB82787AA8000F7E5E9 /* Aplazo_TestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1666AC92787AA8000F7E5E9 /* Build configuration list for PBXNativeTarget "Aplazo_TestAppUITests" */;
+			buildPhases = (
+				E1666AB52787AA8000F7E5E9 /* Sources */,
+				E1666AB62787AA8000F7E5E9 /* Frameworks */,
+				E1666AB72787AA8000F7E5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1666ABB2787AA8000F7E5E9 /* PBXTargetDependency */,
+			);
+			name = Aplazo_TestAppUITests;
+			productName = Aplazo_TestAppUITests;
+			productReference = E1666AB92787AA8000F7E5E9 /* Aplazo_TestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1666A972787AA7F00F7E5E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E1666A9E2787AA7F00F7E5E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E1666AAE2787AA8000F7E5E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E1666A9E2787AA7F00F7E5E9;
+					};
+					E1666AB82787AA8000F7E5E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E1666A9E2787AA7F00F7E5E9;
+					};
+				};
+			};
+			buildConfigurationList = E1666A9A2787AA7F00F7E5E9 /* Build configuration list for PBXProject "Aplazo_TestApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1666A962787AA7F00F7E5E9;
+			productRefGroup = E1666AA02787AA7F00F7E5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1666A9E2787AA7F00F7E5E9 /* Aplazo_TestApp */,
+				E1666AAE2787AA8000F7E5E9 /* Aplazo_TestAppTests */,
+				E1666AB82787AA8000F7E5E9 /* Aplazo_TestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1666A9D2787AA7F00F7E5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1666AAA2787AA8000F7E5E9 /* Preview Assets.xcassets in Resources */,
+				E1666AA72787AA8000F7E5E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1666AAD2787AA8000F7E5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1666AB72787AA8000F7E5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1666A9B2787AA7F00F7E5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1666AA52787AA7F00F7E5E9 /* ContentView.swift in Sources */,
+				E1666AA32787AA7F00F7E5E9 /* Aplazo_TestAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1666AAB2787AA8000F7E5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1666AB42787AA8000F7E5E9 /* Aplazo_TestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1666AB52787AA8000F7E5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1666ABE2787AA8000F7E5E9 /* Aplazo_TestAppUITests.swift in Sources */,
+				E1666AC02787AA8000F7E5E9 /* Aplazo_TestAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1666AB12787AA8000F7E5E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1666A9E2787AA7F00F7E5E9 /* Aplazo_TestApp */;
+			targetProxy = E1666AB02787AA8000F7E5E9 /* PBXContainerItemProxy */;
+		};
+		E1666ABB2787AA8000F7E5E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1666A9E2787AA7F00F7E5E9 /* Aplazo_TestApp */;
+			targetProxy = E1666ABA2787AA8000F7E5E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1666AC12787AA8000F7E5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1666AC22787AA8000F7E5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1666AC42787AA8000F7E5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aplazo_TestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 79V6RJXTHD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaNiELChIoRo.Aplazo-TestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1666AC52787AA8000F7E5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aplazo_TestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 79V6RJXTHD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaNiELChIoRo.Aplazo-TestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1666AC72787AA8000F7E5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79V6RJXTHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaNiELChIoRo.Aplazo-TestAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplazo_TestApp.app/Aplazo_TestApp";
+			};
+			name = Debug;
+		};
+		E1666AC82787AA8000F7E5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79V6RJXTHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaNiELChIoRo.Aplazo-TestAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aplazo_TestApp.app/Aplazo_TestApp";
+			};
+			name = Release;
+		};
+		E1666ACA2787AA8000F7E5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79V6RJXTHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaNiELChIoRo.Aplazo-TestAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aplazo_TestApp;
+			};
+			name = Debug;
+		};
+		E1666ACB2787AA8000F7E5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79V6RJXTHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaNiELChIoRo.Aplazo-TestAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aplazo_TestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1666A9A2787AA7F00F7E5E9 /* Build configuration list for PBXProject "Aplazo_TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1666AC12787AA8000F7E5E9 /* Debug */,
+				E1666AC22787AA8000F7E5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1666AC32787AA8000F7E5E9 /* Build configuration list for PBXNativeTarget "Aplazo_TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1666AC42787AA8000F7E5E9 /* Debug */,
+				E1666AC52787AA8000F7E5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1666AC62787AA8000F7E5E9 /* Build configuration list for PBXNativeTarget "Aplazo_TestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1666AC72787AA8000F7E5E9 /* Debug */,
+				E1666AC82787AA8000F7E5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1666AC92787AA8000F7E5E9 /* Build configuration list for PBXNativeTarget "Aplazo_TestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1666ACA2787AA8000F7E5E9 /* Debug */,
+				E1666ACB2787AA8000F7E5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1666A972787AA7F00F7E5E9 /* Project object */;
+}
