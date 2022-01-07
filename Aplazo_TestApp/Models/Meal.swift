@@ -12,8 +12,10 @@ struct Meal: Decodable {
     let strMealThumb: String
     let idMeal: String
     
-    let strInstructions: String = ""
-    let strArea: String = ""
+    var strInstructions: String = ""
+    var strArea: String = ""
+    var strYoutube: String = ""
+    var strCategory: String = ""
 }
 
 extension Meal: Identifiable {
