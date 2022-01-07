@@ -18,6 +18,7 @@
 		E1666AD22787BA9F00F7E5E9 /* CategoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD12787BA9F00F7E5E9 /* CategoryDetail.swift */; };
 		E1666AD42787BC0000F7E5E9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD32787BC0000F7E5E9 /* Meal.swift */; };
 		E1666AD62787C31200F7E5E9 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD52787C31200F7E5E9 /* MealDetail.swift */; };
+		E1666AD92787E89200F7E5E9 /* ContentView+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD82787E89200F7E5E9 /* ContentView+Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E1666AD12787BA9F00F7E5E9 /* CategoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetail.swift; sourceTree = "<group>"; };
 		E1666AD32787BC0000F7E5E9 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		E1666AD52787C31200F7E5E9 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		E1666AD82787E89200F7E5E9 /* ContentView+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		E1666AA12787AA7F00F7E5E9 /* Aplazo_TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E1666AD72787E88200F7E5E9 /* ViewModels */,
 				E1666ACF2787B2CC00F7E5E9 /* Aplazo-TestApp-Info.plist */,
 				E1666AD02787BA8200F7E5E9 /* Views */,
 				E1666ACC2787AAFC00F7E5E9 /* Models */,
@@ -155,6 +158,14 @@
 				E1666AD52787C31200F7E5E9 /* MealDetail.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E1666AD72787E88200F7E5E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E1666AD82787E89200F7E5E9 /* ContentView+Model.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				E1666AD22787BA9F00F7E5E9 /* CategoryDetail.swift in Sources */,
 				E1666AA52787AA7F00F7E5E9 /* ContentView.swift in Sources */,
 				E1666AD62787C31200F7E5E9 /* MealDetail.swift in Sources */,
+				E1666AD92787E89200F7E5E9 /* ContentView+Model.swift in Sources */,
 				E1666AA32787AA7F00F7E5E9 /* Aplazo_TestAppApp.swift in Sources */,
 				E1666ACE2787AB0700F7E5E9 /* Category.swift in Sources */,
 			);
