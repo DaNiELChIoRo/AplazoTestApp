@@ -11,6 +11,9 @@ struct Meal: Decodable {
     let strMeal: String
     let strMealThumb: String
     let idMeal: String
+    
+    let strInstructions: String = ""
+    let strArea: String = ""
 }
 
 extension Meal: Identifiable {

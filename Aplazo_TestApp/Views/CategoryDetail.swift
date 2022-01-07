@@ -15,9 +15,12 @@ struct CategoryDetail: View {
         VStack {
             AsyncImage(url: URL(string: category.strCategoryThumb)!)
                                     .fixedSize()
-            
+//            NavigationView {
             List(model.meals) { meal in
-                Text(meal.strMeal)
+                NavigationLink(destination: MealDetail(mealId: meal.idMeal)) {
+                    Text(meal.strMeal)
+                }
+//            }
             }
         }
         .navigationTitle(category.strCategory)
@@ -40,7 +43,7 @@ extension CategoryDetail {
                 let (data, _) = try await URLSession.shared.data(from: url)
                 self.meals = try JSONDecoder().decode(MealResponse.self, from: data).meals
             } catch {
-                debugPrint("error while trying to fecth")
+                debugPrint("error while trying to fecth meals, error:", error.localizedDescription)
             }
         }
     }
