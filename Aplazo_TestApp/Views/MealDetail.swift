@@ -22,9 +22,9 @@ struct MealDetail: View {
                     
                 }, placeholder: {
                     ProgressView()
-                })                    
+                })
                 
-                Text(meal.strInstructions)
+                Text(meal.strInstructions ?? "")
             }
         }
         .navigationTitle(model.meal?.strMeal ?? "")

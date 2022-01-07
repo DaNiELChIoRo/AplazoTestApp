@@ -51,14 +51,16 @@ struct ContentView: View {
                         ProgressView()
                     })
                     
-                    Link("YouTube", destination: URL(string: randomMeal.strYoutube)!)
+                    if let youTubeLink = randomMeal.strYoutube {
+                        Link("YouTube", destination: URL(string: youTubeLink)!)
+                    }
                     
-                    Text(randomMeal.strCategory)
+                    Text(randomMeal.strCategory ?? "")
                         .font(.title2)
                     
                     Text("Instructions")
                         .font(.title3)
-                    Text(randomMeal.strInstructions)
+                    Text(randomMeal.strInstructions ?? "")
                 }
                 .padding(.horizontal)
             }

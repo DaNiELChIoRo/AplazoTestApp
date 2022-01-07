@@ -15,12 +15,10 @@ struct CategoryDetail: View {
         VStack {
             AsyncImage(url: URL(string: category.strCategoryThumb)!)
                                     .fixedSize()
-//            NavigationView {
             List(model.meals) { meal in
                 NavigationLink(destination: MealDetail(mealId: meal.idMeal)) {
                     Text(meal.strMeal)
                 }
-//            }
             }
         }
         .navigationTitle(category.strCategory)
