@@ -19,6 +19,8 @@
 		E1666AD42787BC0000F7E5E9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD32787BC0000F7E5E9 /* Meal.swift */; };
 		E1666AD62787C31200F7E5E9 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD52787C31200F7E5E9 /* MealDetail.swift */; };
 		E1666AD92787E89200F7E5E9 /* ContentView+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666AD82787E89200F7E5E9 /* ContentView+Model.swift */; };
+		E1666ADB2787E8F000F7E5E9 /* MeailDetail+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666ADA2787E8F000F7E5E9 /* MeailDetail+Model.swift */; };
+		E1666ADD2787E91100F7E5E9 /* CategoryDetail+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1666ADC2787E91100F7E5E9 /* CategoryDetail+Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E1666AD32787BC0000F7E5E9 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		E1666AD52787C31200F7E5E9 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 		E1666AD82787E89200F7E5E9 /* ContentView+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Model.swift"; sourceTree = "<group>"; };
+		E1666ADA2787E8F000F7E5E9 /* MeailDetail+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeailDetail+Model.swift"; sourceTree = "<group>"; };
+		E1666ADC2787E91100F7E5E9 /* CategoryDetail+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryDetail+Model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				E1666AD82787E89200F7E5E9 /* ContentView+Model.swift */,
+				E1666ADA2787E8F000F7E5E9 /* MeailDetail+Model.swift */,
+				E1666ADC2787E91100F7E5E9 /* CategoryDetail+Model.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1666AD42787BC0000F7E5E9 /* Meal.swift in Sources */,
+				E1666ADD2787E91100F7E5E9 /* CategoryDetail+Model.swift in Sources */,
+				E1666ADB2787E8F000F7E5E9 /* MeailDetail+Model.swift in Sources */,
 				E1666AD22787BA9F00F7E5E9 /* CategoryDetail.swift in Sources */,
 				E1666AA52787AA7F00F7E5E9 /* ContentView.swift in Sources */,
 				E1666AD62787C31200F7E5E9 /* MealDetail.swift in Sources */,
