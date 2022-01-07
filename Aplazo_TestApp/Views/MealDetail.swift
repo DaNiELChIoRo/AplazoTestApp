@@ -13,10 +13,17 @@ struct MealDetail: View {
     var body: some View {
         ScrollView {
             if let meal = model.meal {
-                AsyncImage(url: URL(string: meal.strMealThumb)!)
-                    .fixedSize()
-                    .frame(maxHeight: .leastNormalMagnitude)
-            
+                AsyncImage(url: URL(string: meal.strMealThumb)!,
+                           content: { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 250)
+                    
+                }, placeholder: {
+                    ProgressView()
+                })                    
+                
                 Text(meal.strInstructions)
             }
         }
